@@ -18,8 +18,6 @@ const App = () => {
     },
   ])
 
-  setTasks([])
-
   return (
     <>
       <div className='container'>
