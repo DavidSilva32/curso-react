@@ -1,6 +1,6 @@
 .task-container {
     background-color: #444;
-    color: white;
+    color: #eee;
     margin: 8px 0;
     padding: 15px 20px;
     border-radius: 5px;
@@ -13,9 +13,14 @@
     cursor: pointer;
 }
 
-.remove-task-button {
+.remove-task-button, .see-task-details-button {
     background-color: #444;
     border: none;
-    font-size: 16px;
+    font-size: 24px;
     color: chartreuse;
+    cursor: pointer;
+}
+
+.remove-task-button:hover, .see-task-details-button:hover {
+    color: white;
 }
